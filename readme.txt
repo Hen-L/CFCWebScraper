@@ -20,5 +20,6 @@ In the json file its just urls mainly (except images where it states it is a bac
 externalresources.json has sections defined already, therefore keep them there.
 wordcount.json can stay blank.
 
+To install the required libraries run 'pip install -r requirements.txt'.
 To run the code write 'python main.py'.
-If errors occur due to missing libraries run 'pip install -r requirements.txt'.
+
