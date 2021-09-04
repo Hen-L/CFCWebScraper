@@ -6,7 +6,7 @@ the following tasks:
 Writes a list of *all externally loaded resources* (e.g. images/scripts/fonts not hosted
 on cfcunderwriting.com) to a JSON output file.
 Enumerates the page's hyperlinks and identifies the location of the "Privacy Policy"
-page
+page.
 Uses the privacy policy URL identified and scrapes the pages content.
 Produce a case-insentitive word frequency count for all of the visible text on the page.
 Your frequency count should also be written to a JSON output file.
@@ -18,7 +18,7 @@ Images and scripts tags are outputted with their tag entirely while fonts/css is
 In the json file its just urls mainly (except images where it states it is a background image).
 
 externalresources.json has sections defined already, therefore keep them there.
-wordcount.json can stay blank
+wordcount.json can stay blank.
 
 To run the code write 'python main.py'.
-If errors occur due to missing libraries run 'pip install -r requirements.txt'
+If errors occur due to missing libraries run 'pip install -r requirements.txt'.
